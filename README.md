@@ -7,13 +7,12 @@ To run it on your machine, follow [these instructions](https://docs.cypress.io/g
 Make sure that you have already have node_modules. In case not, run ```npm init``` in terminal. 
 
 ## Tasks 
-1. Potrebno je napraviti račun kao kupac na njuškalo.hr. Napraviti automatski test koji će
-provjeriti radi li login i logout sa kreiranim računom. - LoginLogout.cy.js
+1. Create account at njuškalo.hr. Write an automated test in Cypress that will check that Login and Logout works with created account. - LoginLogout.cy.js
 
-2. Ulogirati se kao korisnik iz točke 1. Automatizirati test pretrage „Audi A4“ sa filterom do
+2. Login with previously created account. Automate search of the term „Audi A4“ using maximum price filter of
 15000€. - SearchFilter.cy.js
 
-3. Njuškalo podržava pretraživanje oglasa po njegovom ID-u. Automatizirati pretragu za oglas ID
+3. Njuškalo supports search using ad ID. Automate search with ad ID
 1349039 - SearchID.cy.js
 
 ## Note
